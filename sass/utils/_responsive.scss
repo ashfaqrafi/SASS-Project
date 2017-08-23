@@ -1,0 +1,26 @@
+//responsive css mixins start
+@mixin mobile{
+    @media screen and (max-width: 767px) {
+        @content;
+  }
+}
+
+@mixin tab{
+    @media screen and (min-width: 768px) and (max-width: 991px){
+        @content;
+  }
+}
+
+@mixin pc--small{
+    @media screen and (min-width: 992px) and (max-width: 1199px){
+        @content;
+  }
+}
+
+@mixin pc--large{
+    @media screen and (min-width: 1200px){
+        @content;
+  }
+}
+
+//responsive css mixins end

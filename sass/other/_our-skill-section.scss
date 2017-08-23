@@ -1,0 +1,158 @@
+.our-skill{
+      .title-team{
+      .super-elem{
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        position: relative;
+
+        .title-header{
+          position: relative;
+          padding-bottom: 5px;
+          margin-bottom: 30px;
+
+          ::after{
+            top: 70px;
+            @include afterelem;
+          }
+          h2{
+            font-family: $menu-item-font-family;
+            font-size: 40px;
+            font-weight: 700;
+          }
+
+        }
+          .title-paragraph{
+                  font-family: $menu-item-font-family;
+                  font-size: 18px;
+            }
+          }
+      }
+
+      .single-skill{
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+      .our-skill-sec{
+        border: 0;
+
+        margin: 0;
+        outline: 0;
+        padding: 0;
+        vertical-align: baseline;
+
+
+        .single-skill-content{
+          border: 0;
+
+          margin: 0;
+          outline: 0;
+          padding: 0;
+          vertical-align: baseline;
+
+          .single-skill-img-1{
+
+            margin: 6px 6px 20px;
+            display: inline-block;
+            position: relative;
+            text-align: center;
+            line-height: 1.2;
+
+            strong {
+                    position: absolute;
+                    top: 55px;
+
+                    left: 0px;
+                    right: 0px;
+
+                    font-family: $menu-item-font-family;
+                    font-weight: 300;
+                    font-size: 40px;
+                  }
+
+
+          }
+
+          .single-skill-img-2{
+
+            margin: 6px 6px 20px;
+            display: inline-block;
+            position: relative;
+            text-align: center;
+            line-height: 1.2;
+
+            strong {
+              position: absolute;
+              top: 55px;
+
+              left: 0px;
+              right: 0px;
+
+              font-family: $menu-item-font-family;
+              font-weight: 300;
+              font-size: 40px;
+                  }
+
+
+          }
+
+          .single-skill-img-3{
+
+            margin: 6px 6px 20px;
+            display: inline-block;
+            position: relative;
+            text-align: center;
+            line-height: 1.2;
+
+            strong {
+              position: absolute;
+              top: 55px;
+
+              left: 0px;
+              right: 0px;
+
+              font-family: $menu-item-font-family;
+              font-weight: 300;
+              font-size: 40px;
+                  }
+
+
+          }
+
+          .single-skill-img-4{
+
+            margin: 6px 6px 20px;
+            display: inline-block;
+            position: relative;
+            text-align: center;
+            line-height: 1.2;
+
+            strong {
+              position: absolute;
+              top: 55px;
+
+              left: 0px;
+              right: 0px;
+
+              font-family: $menu-item-font-family;
+              font-weight: 300;
+              font-size: 40px;
+
+                    }
+
+
+          }
+          span{
+            font-family: $menu-item-font-family;
+            font-size: 24px;
+            font-weight: 700;
+
+            display: block;
+
+            margin-top: 12px;
+            text-align: center;
+          }
+        }
+      }
+      }
+}

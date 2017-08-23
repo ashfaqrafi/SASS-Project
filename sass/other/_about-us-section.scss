@@ -1,0 +1,76 @@
+.about_us{
+  background: $us-bg;
+  padding-bottom: 20px;
+
+  .about_us-say{
+  .super-elem{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    position: relative;
+
+    color: $white;
+
+    .title-header{
+      position: relative;
+      padding-bottom: 5px;
+      margin-bottom: 30px;
+
+      ::after{
+        top: 70px;
+        @include afterelem;
+      }
+      h2{
+        font-family: $menu-item-font-family;
+        font-size: 40px;
+        font-weight: 700;
+
+        @include mobile{
+          font-size: 30px;
+        }
+      }
+
+    }
+      .title-paragraph{
+              font-family: $menu-item-font-family;
+              font-size: 18px;
+        }
+      }
+  }
+
+  .about-us{
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+    color: $white;
+
+    .member-area{
+        padding-bottom: 50px;
+    }
+
+    .single-member{
+       padding-bottom: 20px;
+
+       .media-content{
+         display: block;
+         width: 20%;
+       }
+       h4{
+         font-family: $menu-item-font-family;
+         font-size: 24px;
+         text-transform: uppercase;
+         font-weight: 700;
+       }
+       h5{
+         font-family: $menu-item-font-family;
+         font-size: 18px;
+         font-weight: 300;
+
+         color: $single-member-h5;
+       }
+
+
+     }
+
+  }
+}

@@ -1,0 +1,67 @@
+.service-section{
+  background: $service-section-bg;
+
+      .service-title{
+        .super-elem{
+              padding-top: 20px;
+              padding-bottom: 20px;
+
+              position: relative;
+
+              color: $white;
+
+              .title-header{
+                h2{
+                  position: relative;
+                  font-family: $menu-item-font-family;
+                  font-size: 40px;
+                  font-weight: 700;
+
+                  @include mobile{
+                    font-size: 28px;
+                  }
+
+                }
+                ::after{
+                  top: 50px;
+                  @include afterelem;
+                }
+              }
+                .title-paragraph{
+                        font-family: $menu-item-font-family;
+                        font-size: 18px;
+
+                        @include mobile{
+                          padding-top: 30px;
+                        }
+
+                  }
+        }
+      }
+
+        .service-content{
+                      padding-top: 30px;
+                      padding-bottom: 50px;
+              .single-service{
+                @include mobile{
+                  padding-bottom: 30px;
+                }
+                .single-service-item{
+                      color: $white;
+                  h3{
+                      font-family: $menu-item-font-family;
+                      font-size:24px;
+                      font-weight:700;
+
+                  }
+
+                  p{
+                    font-family: $menu-item-font-family;
+                    font-size: 16px;
+                    font-weight: 300;
+                  }
+                }
+              }
+
+        }
+}

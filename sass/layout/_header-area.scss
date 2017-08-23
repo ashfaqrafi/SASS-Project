@@ -1,0 +1,41 @@
+.header--area{
+      background: $nav-bg-color;
+
+      .navbar-default{
+        padding-top: 20px;
+
+        background:$nav-bg-color;
+        border:$nav-bg-color;
+
+
+      .navbar-nav{
+        li{
+          > a{
+            color: $white;
+            font-family: $menu-item-font-family;
+              &:hover, &:focus{
+                background: $golden;
+                color: $white;
+            }
+                &:active{
+                  background: $deep_blue;
+                  color: $white;
+              }
+          }
+        }
+      }
+
+      }
+
+.header-content{
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  font-family: $menu-item-font-family;
+  font-size: 40px;
+  font-weight: 700;
+
+  color: $white;
+  text-align: center;
+}
+}

@@ -1,0 +1,22 @@
+body{
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+@import "utils/mixins";
+@import "utils/responsive";
+@import "utils/variables";
+
+@import "components/buttons";
+@import "components/forms";
+
+@import "layout/footer-section";
+@import "layout/header-area";
+@import "layout/navigation";
+
+@import "other/about-us-section";
+@import "other/contact-section";
+@import "other/our-portfolio-section";
+@import "other/our-skill-section";
+@import "other/our-team-section";
+@import "other/service-section";

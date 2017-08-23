@@ -1,0 +1,26 @@
+@mixin btn-click(){
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  color: $white;
+
+  text-align: center;
+  font-family: $menu-item-font-family;
+  font-size: 18px;
+  font-weight: 600;
+}
+@mixin afterelem() {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 3px;
+    width: 99px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #ff0000;
+    content: "";
+
+}

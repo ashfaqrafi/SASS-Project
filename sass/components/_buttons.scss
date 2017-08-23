@@ -1,0 +1,28 @@
+// button variable
+$btn1-bg: #eb7d4b;
+$btn2-bg: #17c2a4;
+$btn3-bg: #30bae7;
+$btn4-bg: #ebc985;
+//end
+
+.header-button{
+      margin-top: 20px;
+      margin-bottom: 50px;
+  @include btn_click;
+      background: $btn1-bg;
+}
+
+.load-project{
+  @include btn_click;
+      background: $btn2-bg;
+}
+
+.send-project{
+      margin-top: 50px;
+  @include btn_click;
+      background: $btn3-bg;
+}
+
+.btn-portfolio{
+      background:$btn4-bg;
+}

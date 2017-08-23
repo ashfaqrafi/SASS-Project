@@ -1,0 +1,41 @@
+.cuda_nav{
+          padding-top: 20px;
+
+          .navbar-header{
+            padding-bottom: 10px;
+          }
+
+          img{
+            margin-top: -20px;
+            width: 100%;
+
+          }
+
+          ul.nav{
+            padding-top: 25px;
+
+            li{
+              a{
+                  padding-right: 30px;
+
+                  color: $menu-item-color;
+                  font-family: $menu-item-font-family;
+
+                  &:hover{
+                    color: $menu-item-color-hover;
+                  }
+              }
+          }
+        }
+      }
+
+.navbar-toggle{
+  margin-top: 28px;
+
+  border-color: $white;
+
+  .icon-bar{
+    background-color: $white;
+
+  }
+}

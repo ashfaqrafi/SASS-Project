@@ -1,0 +1,105 @@
+.our-portfolio{
+  background: $portfolio-bg;
+  padding-bottom: 100px;
+
+  .ports{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    text-align: center;
+  }
+
+  .title-team{
+  .super-elem{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    position: relative;
+
+    .title-header{
+      position: relative;
+      padding-bottom: 5px;
+      margin-bottom: 30px;
+
+      ::after{
+        top: 70px;
+        @include afterelem;
+      }
+      h2{
+        font-family: $menu-item-font-family;
+        font-size: 40px;
+        font-weight: 700;
+      }
+
+
+    }
+      .title-paragraph{
+              font-family: $menu-item-font-family;
+              font-size: 18px;
+        }
+      }
+  }
+
+      .portfolio_filter{
+          margin-top: 30px;
+          margin-bottom: 30px;
+
+          text-align: center;
+        button{
+
+          font-family: $menu-item-font-family;
+          font-size: 14px;
+        }
+
+      }
+
+      .portfolio_items{
+        .single_item{
+          p{
+            text-align: center;
+          }
+        }
+      }
+
+      .ports{
+        position: relative;
+      .portfolio-content{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+
+          .single-portfolio{
+            position: relative;
+            img{
+              width: 100%;
+              padding-bottom: 10px;
+            }
+            p{
+              padding-bottom: 10px;
+
+              font-family: $menu-item-font-family;
+              font-size: 18px;
+            }
+
+          }
+      }
+
+      .portfolio-link{
+        padding-bottom: 20px;
+
+        font-family: $menu-item-font-family;
+        font-size: 18px;
+
+        .grid{
+          .grid-item{
+            width: 25%;
+          }
+        }
+      }
+
+      .load-button{
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+}
+}

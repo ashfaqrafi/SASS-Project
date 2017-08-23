@@ -1,0 +1,58 @@
+.our-team{
+        padding-bottom: 50px;
+        background: $team-bg;
+          .title-team{
+          .super-elem{
+            padding-top: 50px;
+            padding-bottom: 50px;
+
+            position: relative;
+            .title-header{
+              position: relative;
+              padding-bottom: 5px;
+              margin-bottom: 30px;
+
+              ::after{
+                top: 70px;
+                @include afterelem;
+              }
+              h2{
+                position: relative;
+
+                font-family: $menu-item-font-family;
+                font-size: 40px;
+                font-weight: 700;
+
+                @include mobile{
+                  font-size: 33px;
+                }
+              }
+
+            }
+              .title-paragraph{
+                      font-family: $menu-item-font-family;
+                      font-size: 18px;
+                }
+        }
+          }
+
+          .single-team-content{
+            @include mobile{
+              padding-bottom: 30px;
+            }
+            .single-team-items{
+              h5{
+                font-family:$menu-item-font-family;
+                font-size: 16px;
+                font-weight: 400;
+                color: $deep_blue;
+                }
+              p{
+                font-family: $menu-item-font-family;
+                font-size: 16px;
+                font-weight: 300;
+              }
+
+            }
+          }
+}
